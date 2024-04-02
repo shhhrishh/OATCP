@@ -1,5 +1,5 @@
-The code you provided solves a problem where you have a certain number of coins and a list of ice cream costs, and you want to determine how many ice creams you 
-can buy with the given coins. 
+The code solves the problem where a certain number of coins and a list of ice cream costs are given, and we want to determine how many ice creams can be bought 
+with the given coins. 
 
 1) Function maxIceCream:
 
