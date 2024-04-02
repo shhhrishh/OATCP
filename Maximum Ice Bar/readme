@@ -1,1 +1,9 @@
+Function maxIceCream:
 
+This function takes two arguments: vector of integers costs representing the costs of ice creams, and an integer coins representing the number of coins available.
+It initializes a variable count to 0 to keep track of the number of ice creams bought.
+It sorts the costs vector in ascending order using sort(costs.begin(), costs.end());.
+It then iterates through the sorted costs:
+If the current ice cream's cost is less than or equal to the remaining coins (coins), it subtracts the cost from coins and increments count.
+If the cost exceeds the remaining coins, it breaks the loop since no more ice creams can be bought with the remaining coins.
+Finally, it returns the count of bought ice creams.
