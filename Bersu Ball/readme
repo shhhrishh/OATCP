@@ -1,1 +1,12 @@
+Main Function: 
 
+          1) It declares variables n and m to store the number of boys and girls, respectively.
+          2) It takes input for the heights of boys and girls into vectors boys and girls, respectively.
+          3) Sort the heights of boys and girls in ascending order using the sort function from the <algorithm> library.
+                  a) It initializes pairs to 0 and two indices i and j to 0.
+                  b) It uses a while loop to compare heights of boys and girls.
+                  c) If the absolute difference between the current boy's height and girl's height is at most 1, it increments pairs and moves both indices forward 
+                  (i++ and j++).
+                  d) If the boy's height is less than the girl's height, it increments only i.
+                  e) If the boy's height is greater than the girl's height, it increments only j.
+          4) It prints the number of pairs (pairs) where the height difference is at most 1.
